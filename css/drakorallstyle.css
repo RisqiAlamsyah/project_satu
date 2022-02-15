@@ -1,0 +1,1043 @@
+/*Font*/
+@font-face {
+	font-family: 'fraunces';
+	src: url(../font/fraunces.ttf) format('truetype');
+}
+
+/*body style*/
+body {
+	font: 16px/28px 'fraunces', serif;
+	background-color: #c5d6fc;
+	color: #282828;
+}
+
+/*header*/
+.container1 {
+	width: 1000px;
+	margin: 105px auto 0;
+	text-align: center;
+}
+
+.judul {
+	font-size: 40px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	text-shadow: 2px 2px 1px white;
+}
+
+.isi {
+	font-family: arial;
+}
+
+ul li {
+	display: inline-block;
+	width: 80px;
+	font-size: 15px;
+	margin: 5px 10px;
+	background-color: #4b82fa;
+	border-radius: 150px;
+}
+
+ul li a:link {
+	color: white;
+}
+
+ul li:hover {
+	width: 85px;
+	font-size: 16px
+}
+
+ul li a:hover {
+	font-weight: bold;
+}
+
+ul li a:visited {
+	color: black;
+}
+
+/*main*/
+.container {
+	width: 1000px;
+	margin: 15px auto 40px;
+	padding-bottom: 10px;
+	position: relative;
+	box-shadow: 0 0 4px rgba(244, 244, 244, .4),
+		0 0 6px rgba(0, 0, 0, .2);
+}
+
+.top-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 40px;
+	background-color: lightblue;
+	border-bottom: 3px solid rgb(146, 146, 146);
+	z-index: 999x;
+}
+
+.instagram {
+	width: 35px;
+	height: 35px;
+	margin: 10px 5px 5px 14px;
+	filter: saturate(100%) brightness(100%);
+}
+
+.instagram:hover {
+	width: 37px;
+	height: 37px;
+}
+
+.twitter {
+	width: 35px;
+	height: 35px;
+	margin: 10px 5px 5px 5px;
+	filter: saturate(100%) brightness(100%);
+}
+
+.twitter:hover {
+	width: 37px;
+	height: 37px;
+}
+
+img {
+	width: 230px;
+	height: 230px;
+	margin-top: 10pxpx;
+	margin-left: 14px;
+	filter: saturate(130%) brightness(60%);
+}
+
+.drakor {
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4)
+}
+
+.drakor:hover {
+	filter: saturate(100%) brightness(100%) contrast(120%);
+	transition: 1s;
+}
+
+.sinopsis {
+	margin: 0 0 20px 0;
+}
+
+/* Baris 1 */
+/*descendants of the sun*/
+.dots {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -9px 0 0 14px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.dots p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.dots p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/*strong woman do bong soon*/
+.swdb {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -199px 0 0 262px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.swdb p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.swdb p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/*arthdal*/
+.arthdal {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -199px 0 0 510px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.arthdal p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.arthdal p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/*true beauty*/
+.tb {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -200px 0 0 758px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.tb p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.tb p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* Baris 2 */
+/* my id is gangnam beauty */
+.miigb {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -9px 0 0 14px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.miigb p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.miigb p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* her private life */
+.hpl {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -199px 0 0 262px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.hpl p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.hpl p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* mr queen*/
+.mrq {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -199px 0 0 510px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.mrq p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.mrq p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* whats wrong with secretary kim */
+.wwwsk {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -200px 0 0 758px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.wwwsk p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.wwwsk p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* Baris 3 */
+/* sweet home */
+.sh {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -9px 0 0 14px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.sh p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.sh p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* school 2017 */
+.s2017 {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -199px 0 0 262px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.s2017 p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.s2017 p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* w */
+.w {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -199px 0 0 510px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.w p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.w p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* its okay to not be okay */
+.iotnbo {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -200px 0 0 758px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.iotnbo p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.iotnbo p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* Baris 4 */
+/* bad papa */
+.bp {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -9px 0 0 14px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.bp p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.bp p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* extracurricular */
+.e {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -199px 0 0 262px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.e p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.e p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* extraordinary you */
+.ey {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -199px 0 0 510px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.ey p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.ey p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* he is psychometric */
+.hip {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -200px 0 0 758px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.hip p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.hip p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* Baris 5 */
+/* moment et eighteen */
+.mae {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -9px 0 0 14px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.mae p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.mae p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* meow: the secret boy */
+.tsb {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -199px 0 0 262px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.tsb p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.tsb p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* the world of the merried */
+.twom {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -199px 0 0 510px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.twom p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.twom p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* because this is my first life */
+.btimfl {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -200px 0 0 758px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.btimfl p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.btimfl p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* Baris 6 */
+/* come and hug me */
+.cahm {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -9px 0 0 14px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.cahm p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.cahm p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* dokgo rewind */
+.dr {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -199px 0 0 262px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.dr p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.dr p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* hospital ship*/
+.hs {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -199px 0 0 510px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.hs p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.hs p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* rich man */
+.rm {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -200px 0 0 758px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.rm p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.rm p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* Baris 7 */
+/* my secret romance */
+.msr {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -9px 0 0 14px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.msr p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.msr p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* vincenzo */
+.v {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -199px 0 0 262px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.v p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.v p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* falling in love*/
+.fil {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -199px 0 0 510px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.fil p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.fil p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* doom at your service */
+.days {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -200px 0 0 758px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.days p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.days p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* Baris 8 */
+/* taxi driver */
+.td {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -9px 0 0 14px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.td p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.td p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* sell your haunted house */
+.syhh {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -199px 0 0 262px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.syhh p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.syhh p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* move to heaven*/
+.mth {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -199px 0 0 510px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.mth p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.mth p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* my roomate is a gumiho */
+.mriag {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -200px 0 0 758px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.mriag p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.mriag p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* Baris 9 */
+/* suspicious partner */
+.sp {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -9px 0 0 14px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.sp p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.sp p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* the beauty inside */
+.tbi {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -199px 0 0 262px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.tbi p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.tbi p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* beautiful world*/
+.bw {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -199px 0 0 510px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.bw p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.bw p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* the devil judge */
+.tdj {
+	width: 230px;
+	height: 200px;
+	background-color: white;
+	margin: -200px 0 0 758px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+	overflow: auto;
+}
+
+.tdj p:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.tdj p:last-of-type {
+	text-align: justify;
+	padding-top: 2px;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+/* footer */
+.footer {
+	background-color: #4b82fa;
+	padding: 10px;
+}
+
+.footer .copy {
+	color: #eaeaea;
+	text-align: center;
+	font-size: 12px;
+}

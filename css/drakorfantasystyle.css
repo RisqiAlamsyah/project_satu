@@ -1,0 +1,282 @@
+/*Font*/
+@font-face {
+    font-family: 'fraunces';
+    src: url(../font/fraunces.ttf) format('truetype');
+}
+
+/*body style*/
+body {
+    font: 16px/28px 'fraunces', serif;
+    background-color: #c5d6fc;
+    color: #282828;
+}
+
+/*header*/
+.container1 {
+    width: 1000px;
+    margin: 105px auto 0;
+    text-align: center;
+}
+
+.judul {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 1px white;
+}
+
+.isi {
+    font-family: arial;
+}
+
+ul li {
+    display: inline-block;
+    width: 80px;
+    font-size: 15px;
+    margin: 5px 10px;
+    background-color: #4b82fa;
+    border-radius: 150px;
+}
+
+ul li a:link {
+    color: white;
+}
+
+ul li:hover {
+    width: 85px;
+    font-size: 16px
+}
+
+ul li a:hover {
+    font-weight: bold;
+}
+
+ul li a:visited {
+    color: black;
+}
+
+/*main*/
+.container {
+    width: 1000px;
+    margin: 15px auto 40px;
+    padding-bottom: 10px;
+    position: relative;
+    box-shadow: 0 0 4px rgba(244, 244, 244, .4),
+        0 0 6px rgba(0, 0, 0, .2);
+}
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: lightblue;
+    border-bottom: 3px solid rgb(146, 146, 146);
+    z-index: 999x;
+}
+
+.instagram {
+    width: 35px;
+    height: 35px;
+    margin: 10px 5px 5px 14px;
+    filter: saturate(100%) brightness(100%);
+}
+
+.instagram:hover {
+    width: 37px;
+    height: 37px;
+}
+
+.twitter {
+    width: 35px;
+    height: 35px;
+    margin: 10px 5px 5px 5px;
+    filter: saturate(100%) brightness(100%);
+}
+
+.twitter:hover {
+    width: 37px;
+    height: 37px;
+}
+
+img {
+    width: 230px;
+    height: 230px;
+    margin-top: 10pxpx;
+    margin-left: 14px;
+    filter: saturate(130%) brightness(60%);
+}
+
+.drakor {
+    box-shadow: 0 0 3px rgba(0, 0, 0, .4)
+}
+
+.drakor:hover {
+    filter: saturate(100%) brightness(100%) contrast(120%);
+    transition: 1s;
+}
+
+.sinopsis {
+    margin: 0 0 20px 0;
+}
+
+.judul2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.sinopsis2 {
+    text-align: justify;
+    padding-top: 2px;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+}
+
+/* Baris 1 */
+/*strong woman do bong soon*/
+.swdb {
+    width: 230px;
+    height: 200px;
+    background-color: white;
+    margin: -9px 0 0 14px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+    overflow: auto;
+}
+
+/*arthdal*/
+.arthdal {
+    width: 230px;
+    height: 200px;
+    background-color: white;
+    margin: -199px 0 0 262px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+    overflow: auto;
+}
+
+/*mr queen*/
+.mrq {
+    width: 230px;
+    height: 200px;
+    background-color: white;
+    margin: -199px 0 0 510px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+    overflow: auto;
+}
+
+/*w*/
+.w {
+    width: 230px;
+    height: 200px;
+    background-color: white;
+    margin: -200px 0 0 758px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+    overflow: auto;
+}
+
+/* Baris 2 */
+/* extraordinary you */
+.ey {
+    width: 230px;
+    height: 200px;
+    background-color: white;
+    margin: -9px 0 0 14px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+    overflow: auto;
+}
+
+/* he is psychometric */
+.hip {
+    width: 230px;
+    height: 200px;
+    background-color: white;
+    margin: -199px 0 0 262px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+    overflow: auto;
+}
+
+/* meow: the secret boy */
+.tsb {
+    width: 230px;
+    height: 200px;
+    background-color: white;
+    margin: -199px 0 0 510px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+    overflow: auto;
+}
+
+/* doom at your service */
+.days {
+    width: 230px;
+    height: 200px;
+    background-color: white;
+    margin: -200px 0 0 758px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+    overflow: auto;
+}
+
+/* Baris 3 */
+/* sell your haunted house */
+.syhh {
+    width: 230px;
+    height: 200px;
+    background-color: white;
+    margin: -9px 0 0 14px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+    overflow: auto;
+}
+
+/* my roommate is a gumiho */
+.mriag {
+    width: 230px;
+    height: 200px;
+    background-color: white;
+    margin: -199px 0 0 262px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+    overflow: auto;
+}
+
+/* the beauty inside */
+.tbi {
+    width: 230px;
+    height: 200px;
+    background-color: white;
+    margin: -199px 0 0 510px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+    overflow: auto;
+}
+
+/* footer */
+.footer {
+    background-color: #4b82fa;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}
